@@ -1,9 +1,10 @@
-function loadPlayer() {
-	const player = new Plyr('#video');
+function loadData() {
+	loadPlayer();
+	updateVideo('area');
 }
 
-function loadData() {
-	updateVideo('area');
+function loadPlayer() {
+	const player = new Plyr('#video');
 }
 
 function updateVideo(element) {
